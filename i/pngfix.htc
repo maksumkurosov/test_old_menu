@@ -1,0 +1,16 @@
+<public:component>
+	<script language="JavaScript">
+	    if ( style.backgroundImage )
+	    {
+		    element.runtimeStyle.filter = 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="' + style.backgroundImage.substr( 4, style.backgroundImage.length - 5 ) + '", sizingMethod="crop")';
+    		element.className += '';
+		}
+		else
+		{
+		    temp = element.src;
+		    element.src = 'i/blank.gif';
+		    element.runtimeStyle.filter = 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="' + temp + '", sizingMethod="crop")';
+		    style.display = 'block';
+		}
+    </script>
+</public:component>
