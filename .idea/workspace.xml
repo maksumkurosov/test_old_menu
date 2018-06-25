@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="ff1ab4ea-6258-47a6-a252-67c8a695c47c" name="Default" comment="" />
+=======
+    <list default="true" id="ff1ab4ea-6258-47a6-a252-67c8a695c47c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +29,13 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/footer.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="176">
               <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+=======
+            <state relative-caret-position="458">
+              <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -179,12 +190,28 @@
       <updated>1529312483637</updated>
       <workItem from="1529312485082" duration="13845000" />
       <workItem from="1529390376466" duration="5172000" />
+<<<<<<< Updated upstream
       <workItem from="1529413479089" duration="3724000" />
+=======
+      <workItem from="1529413479089" duration="25516000" />
+      <workItem from="1529477488453" duration="24655000" />
+      <workItem from="1529589726059" duration="6227000" />
+      <workItem from="1529652428695" duration="24101000" />
+      <workItem from="1529691968891" duration="5860000" />
+      <workItem from="1529735500259" duration="4806000" />
+      <workItem from="1529839426632" duration="3949000" />
+      <workItem from="1529908488477" duration="9575000" />
+      <workItem from="1529922329638" duration="11372000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="22741000" />
+=======
+    <option name="totallyTimeSpent" value="135078000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -365,8 +392,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/maine.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="176">
           <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+=======
+        <state relative-caret-position="458">
+          <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
