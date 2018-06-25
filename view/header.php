@@ -1,4 +1,11 @@
 <div id="header">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#accordion" ).accordion();
+        } );
+    </script>
     <a href=""><img src="i/logo-grey.png" alt="заМетро.ру" id="logo" /></a>
     <div id="ugolok"><a href="">напишите нам</a><br /><a href="">карта сайта</a></div>
     <ul>
