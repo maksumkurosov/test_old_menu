@@ -1,6 +1,12 @@
 <?php
 class User
 {
+    public function show()
+    {
+        print_r($_SESSION);
+        die();
+    }
+
     public function getUserList()
 
     {
@@ -68,37 +74,34 @@ class User
         return $result->fetch();
 
     }
-    public function checkAdmin()
+
+    public function checkAdmin ($userName,$password)
 
     {
-        $chekedUser = $this->getAdminList();
-//        echo $userName;
-//         echo '</br>';
-//        echo $password;
-//        echo $chekedUser['name'].' ';
-//        echo $chekedUser['password'];
-//        print_r($chekedUser).'<br>';
-        foreach ($chekedUser as $user) {
+        $db = Db::getConnection();
 
-            if ($_POST['user'] == $user['name'] && $_POST['password'] == $user['password']) {
+        $sql = 'SELECT * FROM user WHERE name =:name ';
+
+        $result = $db->prepare($sql);
+        $result->bindParam(':name', $userName, PDO::PARAM_STR);
+
+        // Указываем, что хотим получить данные в виде массива
+        $result->setFetchMode(PDO::FETCH_ASSOC);
+
+        // Выполнение коменды
+        $result->execute();
+        $check =  $result->fetch();
+
+        if ($check) {
+            if ($password == $check['password'] && $check['admin'])  {
+                $_SESSION['admin']['name'] = $check['name'];
+                $_SESSION['admin']['admin'] = 'admin';
+
                 return true;
             }
         }
-        return false;
 
-    }
-    public function enter()
-    {
-        if ($_POST['btnpassword']) {
-            if ($this->checkAdmin()) {
-                $_SESSION['name'] = $_POST['user'];
-                var_dump($_SESSION);
-                return true;
-            } else {
-                echo 'no';
-            }
 
-        }
     }
 
 }

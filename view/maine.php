@@ -10,6 +10,7 @@
 				<img src="i/metro-pikcha.jpg" alt="Фотография станции &laquo;Маяковская&raquo;" />
 			</div>
 
+            <?php var_dump($_SESSION) ?>
 			<p><strong>Дата открытия:</strong> <?php echo $stationById['date']; ?>
             <br/><?php echo $stationById['short_content']; ?>
 			<p><strong>Архитектор:</strong> <?php echo $stationById['architect'];?>

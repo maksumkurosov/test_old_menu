@@ -4,13 +4,13 @@
 
             <br/>
 
-            <div class="breadcrumbs">
-                <ol class="breadcrumb">
-                    <li><a href="">Админпанель</a></li>
-<!--                    <li><a href="/admin/order">Управление категориями</a></li>-->
-                    <li class="active">Добавить линию</li>
-                </ol>
-            </div>
+<!--            <div class="breadcrumbs">-->
+<!--                <ol class="breadcrumb">-->
+<!--                    <li><a href="">Админпанель</a></li>-->
+<!--<!--                    <li><a href="/admin/order">Управление категориями</a></li>-->
+<!--                    <li class="active">Добавить линию</li>-->
+<!--                </ol>-->
+<!--            </div>-->
 
 
             <h4>Добавить новую линию</h4>
@@ -22,17 +22,17 @@
                     <form action="#" method="post">
 
                         <p>Номер</p>
-                        <input type="text" name="number" placeholder="" value="">
+                        <input type="text" class="form-control" name="number" placeholder="" value="">
 
                         <p>Название</p>
-                        <input type="text" name="name" placeholder="" value="">
+                        <input type="text" class="form-control" name="name" placeholder="" value="">
 
                         <p>Стиль</p>
-                        <input type="text" name="stail" placeholder="" value="">
+                        <input type="text" class="form-control" name="stail" placeholder="" value="">
 
                         <br><br>
 
-                        <input type="submit" name="submit" class="btn btn-default" value="Сохранить">
+                        <input type="submit" name="submit" class="btn btn-success" value="Сохранить">
                     </form>
                 </div>
             </div>
